@@ -30,7 +30,7 @@ import java.io.InputStreamReader;
 
 public class RetrieveData extends ActionBarActivity {
 
-    public static String url = "http://splitmoney.site50.net/workshop_retrieve.php";
+    public static String url = "YOUR_URL_HERE_PHP_FILE";
     ListView listView;
     InputStream is = null;
     String exceptionMessage = "There seems to be some problem connecting to database. \" +\n" +

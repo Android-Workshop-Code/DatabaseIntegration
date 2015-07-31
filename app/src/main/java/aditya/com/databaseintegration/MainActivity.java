@@ -44,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
 
     EditText etName, etEmail, etPhone;
     Button bSubmit;
-    public static String url = "http://splitmoney.site50.net/workshop_connect.php";
+    public static String url = "YOUR_URL_HERE_PHP_FILE";
     String name, email, phone;
     InputStream is = null;
     String exceptionMessage = "There seems to be some problem connecting to database. " +
