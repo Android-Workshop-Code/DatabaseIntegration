@@ -20,7 +20,8 @@
         </activity>
         <activity
             android:name=".RetrieveData"
-            android:label="@string/title_activity_retrieve_data" >
+            android:label="@string/title_activity_retrieve_data"
+            android:noHistory="true">
         </activity>
     </application>
 

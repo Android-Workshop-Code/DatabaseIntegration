@@ -4,4 +4,7 @@
     tools:context="aditya.com.databaseintegration.RetrieveData">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_refresh" android:title="Refresh Page"
+        android:orderInCategory="200" app:showAsAction="always"
+        android:icon="@drawable/ic_autorenew_white_24dp"/>
 </menu>

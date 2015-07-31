@@ -98,6 +98,7 @@ public class MainActivity extends ActionBarActivity {
                         etEmail.setText("");
                         etPhone.setText("");
                         Toast.makeText(getApplicationContext(), successMessage, Toast.LENGTH_SHORT).show();
+                        is.close();
                     }catch(IOException e){
                         Toast.makeText(getApplicationContext(), exceptionMessage, Toast.LENGTH_SHORT).show();
                     }
